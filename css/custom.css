@@ -1,0 +1,107 @@
+:root {
+	--clip-size: 3rem;
+}
+
+#header {
+	z-index: 3 !important;
+	backdrop-filter: blur(10px);
+}
+
+.dark *::placeholder {
+	color: rgba(255, 255, 255, 0.4) !important;
+}
+
+#primary-menu ul, #primary-menu li {
+	background-color: transparent !important;
+}
+
+#primary-menu a:hover, #primary-menu a:focus {
+	color: #007bff !important;
+	background-color: transparent !important;
+}
+
+#primary-menu a:active, #primary-menu a.current {
+	color: #fdba27 !important;
+}
+
+.mega-menu-content {
+	background-color: #ade4fa !important;
+	border-top: none !important;
+	max-width: 35rem !important;
+}
+
+.device-lg .mega-menu-content::before, .device-xl .mega-menu-content::before {
+	--arrow-size: 1rem;
+
+	content: '';
+	position: absolute;
+	top: calc(var(--arrow-size) * -2);
+	left: calc(50% - var(--arrow-size));
+	width: 0;
+	height: 0;
+	border-left: var(--arrow-size) solid transparent;
+	border-right: var(--arrow-size) solid transparent;
+	border-bottom: calc(var(--arrow-size) * 2) solid #ade4fa;
+}
+
+.mega-menu-column {
+	border: none !important;
+}
+
+#logo { margin-right: 0; }
+
+#logo img {
+	padding: 10px;
+}
+
+.theme-grad {
+	background-image: linear-gradient(30deg, #c82aff, #007bff, #55e0ff);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.theme-bg {
+	background-color: #ade4fa;
+}
+
+.button-theme {
+	color: #262262 !important;
+	border-color: #262262 !important;
+}
+
+.button:hover {
+	background-color: #262262 !important;
+	color: white !important;
+}
+
+.crosscut-section {
+	will-change: scroll;
+
+	clip-path: polygon(50% 0, 100% var(--clip-size), 100% 100%, 50% calc(100% - var(--clip-size)), 0 100%, 0 var(--clip-size));
+	margin: calc(var(--clip-size) * -1) 0;
+	position: relative;
+	z-index: 2;
+}
+
+.before-crosscut-section, .crosscut-section {
+	padding-bottom: calc(var(--clip-size) * 1.5);
+}
+
+.after-crosscut-section, .crosscut-section {
+	padding-top: calc(var(--clip-size) * 1.5);
+}
+
+#quem-somos-bg {
+	background-image: url('../images/custom/quem-somos.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#faq-bg {
+	background-image: url('../images/custom/faq.svg');
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: contain;
+}
