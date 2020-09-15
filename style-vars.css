@@ -98,9 +98,9 @@
 -----------------------------------------------------------------*/
 :root {
 	--themecolor:						#262262;
-	--font-body:						'Ubuntu', sans-serif;
-	--font-primary:						'Ubuntu', sans-serif;
-	--font-secondary:					'Ubuntu', serif;
+	--font-body:						'Montserrat', sans-serif;
+	--font-primary:						'Montserrat', sans-serif;
+	--font-secondary:					'Montserrat', serif;
 	--headings-font-color:				#262262;
 	--headings-font-weight:				600;
 	--before-heading: 					var(--font-secondary);
