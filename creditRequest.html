@@ -120,7 +120,7 @@
                         <li><a href="loanWithVeicule.html">
                             <div>Empréstimo com garantia de veículo</div>
                           </a></li>
-                        <li><a href="#">
+                        <li><a href="payrollLoan.html">
                             <div>Empréstimo consignado</div>
                           </a></li>
                         <li><a href="kredCard.html">
@@ -185,45 +185,90 @@
     <!-- Hero/Home -->
     <div class="d-flex h-100">
       <section id="slider"
-        class="theme-grad dark full-screen w-100 with-header force-full-screen clearfix position-relative overflow-hidden d-flex">
-        <div style="padding-top: 20px; height: 100%;" class="row px-5 align-self-start overflow-auto">
-          <div class="row">
-            <div class="col-md-9">
-              <div class="column">
-                <h2>
-                  Empréstimo consignado
-                </h2>
-                <h4>
-                  Como funciona:
-                </h4>
-                <h5 class="w-80">
-                  O crédito consignado é aquele tipo de empréstimo que você solicita e passa a ter o valor das parcelas
-                  cobrado direto na folha de pagamento - ou seja, o desconto é feito diretamente no salário ou na
-                  aposentadoria. Isso diminui riscos na operação e possibilita que você tenha o empréstimo consignado
-                  com
-                  os menores juros do mercado.
-                </h5>
-                <h5 class="w-80">
-                  Esta modalidade é exclusiva para quem tem carteira assinada com uma empresa conveniada á Kred.
-                </h5>
-              </div>
+        class="theme-grad dark full-screen w-100 with-header force-full-screen clearfix position-relative overflow-auto d-flex">
+        <div style="padding-top: 20px; height: 100%;" class="row  align-self-start col-md-12">
+          <div class="col-md-12">
+            <div class="align-items-center">
+              <h2>
+                Solicite já o seu crédito consignado!
+              </h2>
+              <p class="mb-5">Informe os dados abaixo:</p>
             </div>
-            <div class="col-md-3 mt-5 column">
-              <a href="creditRequest.html">
-                <button style="width: 260px;" href="creditRequest.html" class="button rounded-lg "
-                  data-class-md="button-xl" data-class-lg="button-xl" data-class-xl="button-xl">Solicite uma
-                  proposta</button>
-              </a>
-              <a href="assets/emprestimoconsignado.pdf" target="_blank">
-                <button style="width: 260px; margin-top: 10px;" href="#" class="button rounded-lg"
-                  data-class-md="button-xl" data-class-lg="button-xl" data-class-xl="button-xl">Saiba mais</button>
-              </a>
+          </div>
+          <div class="col-md-6 column">
+            <form action="#" method="post">
+              <div class="form-group">
+                <label style="color: white;" for="name">Lead consignado</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="text"
+                  class="form-control form-control-lg" id="name" name="name" autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label style="color: white;" for="phone">Nome jurídico</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="tel"
+                  class="form-control form-control-lg" id="phone" name="phone" autocomplete="tel">
+              </div>
+
+              <div class="form-group">
+                <label style="color: white;" for="mobile">Nome e cargo da pessoa para contato</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="tel"
+                  class="form-control form-control-lg" id="mobile" name="mobile" autocomplete="mobile"
+                  aria-placeholder="#000" placeholder="Nome">
+              </div>
+
+              <div class="form-group">
+                <input style="background-color: #FFF; border-radius: 8px;" type="email"
+                  class="form-control form-control-lg" id="email" name="email" autocomplete="email" placeholder="Cargo">
+              </div>
+
+              <div class="form-group">
+                <label style="color: white;" for="mobile">Telefone</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="tel"
+                  class="form-control form-control-lg" id="mobile" name="mobile" autocomplete="mobile">
+              </div>
+
+              <div class="form-group">
+                <label style="color: white;" for="mobile">E-mail</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="tel"
+                  class="form-control form-control-lg" id="mobile" name="mobile" autocomplete="mobile">
+              </div>
+              <div class="form-group">
+                <label style="color: white;" for="mobile">Disponibilidade de data e horário para contato</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="tel"
+                  class="form-control form-control-lg" id="mobile" name="mobile" autocomplete="mobile">
+              </div>
+
+              <div class="form-group">
+                <label style="color: white;" for="mobile">Comentários sobre o contato e empresa</label>
+                <input style="background-color: #FFF; border-radius: 8px;" type="tel"
+                  class="form-control form-control-lg" id="mobile" name="mobile" autocomplete="mobile">
+              </div>
+              <h5 class="mt-2">
+                Obs: A empresa a se cadastrar deve ter o mínimo de 1 ano de funcionamento e mínimo de 10 funcionários
+                registrados (CLT).
+              </h5>
+          </div>
+          <div class="col-md-6 column">
+            <div class="form-group">
+              <label style="color: white;" for="mobile">CNPJ</label>
+              <input style="background-color: #FFF; border-radius: 8px;" type="tel" class="form-control form-control-lg"
+                id="mobile" name="mobile" autocomplete="mobile">
+            </div>
+            <div class="form-group">
+              <label style="color: white;" for="mobile">Quantidade de vidas (funcionários) da empresa</label>
+              <input style="background-color: #FFF; border-radius: 8px;" type="tel" class="form-control form-control-lg"
+                id="mobile" name="mobile" autocomplete="mobile">
+            </div>
+            <div class="text-center">
+              <button style="width:260px; color:white; opacity: 0.8; border-color: #FFF" type="submit"
+                class="button button-circle button-border">Enviar
+                ficha</button>
+              </form>
             </div>
           </div>
         </div>
       </section>
     </div>
-
     <div class="clear"></div>
 
     <!-- Content
