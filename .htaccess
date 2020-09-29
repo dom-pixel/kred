@@ -1,7 +1,7 @@
 Options +ExecCGI +FollowSymLinks -MultiViews
 
 RewriteEngine on
-RewriteBase /
+RewriteBase /kred
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
