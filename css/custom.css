@@ -30,6 +30,14 @@
 	max-width: 35rem !important;
 }
 
+#primary-menu .mega-menu {
+	position:relative !important;
+}
+
+#primary-menu .mega-menu .mega-menu-content {
+	transform: translateX(-30%);
+}
+
 .device-lg .mega-menu-content::before, .device-xl .mega-menu-content::before {
 	--arrow-size: 1rem;
 
