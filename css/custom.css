@@ -34,7 +34,7 @@
 	position:relative !important;
 }
 
-#primary-menu .mega-menu .mega-menu-content {
+.device-lg #primary-menu .mega-menu .mega-menu-content, .device-xl #primary-menu .mega-menu .mega-menu-content {
 	transform: translateX(-30%);
 }
 
